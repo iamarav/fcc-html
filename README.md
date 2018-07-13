@@ -1,4 +1,5 @@
-# fcc-html
+# FreeCodeCamp HTML+CSS Projects
+-- Author: Gaurav Sachdeva
 Responsive Web Pages made with HTML+CSS (FCC)
 
 ---------------

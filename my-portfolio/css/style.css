@@ -1,0 +1,138 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #006064;
+font-family: 'Questrial', sans-serif;
+
+}
+
+
+#container{
+    background: #fff;
+    margin: 3%;
+    padding: 0%;
+}
+
+
+.header_img{
+    width: 20%;
+    align-content: center;
+    border: 5px solid #006064;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+}
+
+#welcome-section{
+    top: 50%;
+    left: 50%;
+
+    display: block;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+#navbar{
+    background: #00838F;
+    padding: 1%;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    width: 92%;
+}
+
+
+#intro{
+    font-size: 1.1em;
+    text-align: center;
+}
+#social-icons{
+    margin: 1%;
+}
+#social-icons:hover{
+    color:#006064;
+}
+
+section a:link, section a:visited {
+    color: #000;
+    text-decoration: none;
+}
+nav a {
+    color: white;
+    padding: 1%;   
+    text-decoration: none;
+}
+nav a:hover{
+    background: #006064;
+    color: white;
+    text-decoration: none;
+}
+
+
+#section-title,figcaption{
+    padding-top: 2%;
+    margin-top: 2%;
+    margin-bottom: 0;  
+    text-align: center;
+    background: #f0f0f0;
+    text-decoration: underline;
+}
+figure img{
+    align-content: center;
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+}
+.project-tile{
+    background: #f0f0f0;
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+
+@media only screen and (max-width: 700px) and (max-height:700px){
+    body{
+        background: #fff;
+        margin: 0;
+        padding: 0;
+        font-size: 0.5em;
+    }
+    #welcome-section{
+        height: auto;
+    }
+    
+    #container{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        margin: 0;
+        font-size: 1em;
+        top: 0;
+    }
+    #navbar{
+        width: 100%;
+        background: #006064;
+    }
+    .project-tile{
+        width: 100%;
+    }
+}
+    #contact{
+        text-align: center;
+    }
+@media only screen and (min-width: 1220px){
+        #welcome-section{
+        height: 91vh;
+    }
+    #contact{
+        text-align: center;
+    }
+}
+
+    }

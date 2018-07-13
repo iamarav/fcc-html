@@ -1,0 +1,66 @@
+/************
+Made by Gaurav Sachdeva
+Survey Form  
+************/
+body{
+    background: linear-gradient(90deg,#89C4F4, #317589,#89C4F4) ;
+    font-family: 'Domine', serif;
+    
+}
+
+.container{
+    background: #fff;
+    margin: 5%;
+    padding: 2%;
+}
+input{
+    padding: 5px;
+    display: inline-table;
+}
+#dropdown{
+    padding: 0.5%;
+}
+
+label{
+    padding: 5px;
+    display: inline-table;
+}
+
+#btn{
+    background: #317589;
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    border-radius: 5%;
+}
+#btn:hover{
+    background: #89C4F4;
+    border: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: black;
+    border-radius: 5%;   
+}
+#heading{
+    font-size: 1em;
+    font-weight: bold;
+  margin:5px;
+}
+#warning{
+    color: red;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+a:link{
+    color: darkblue;
+    text-decoration: none;
+}
+a:visited{
+    color: darkblue;
+    text-decoration: none;
+}

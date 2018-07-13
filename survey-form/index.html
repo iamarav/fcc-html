@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Survey Form | FCC</title>  
+<link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+
+    </head>
+<body>
+    <div class="container">
+        
+    <h1 id="title" >Survey Form</h1>
+        <hr>
+    <p id="description">A survey form for practice!</p>
+        <p id="warning"> &raquo; Fields marked with * are mandatory</p>
+    <form action="" id="survey-form" >
+    
+        
+    <label for="name"  id="heading" >* Name: </label>
+    <input type="text" name="name" placeholder="Enter your name here" id="name" required >
+    <br>
+    <label for="email" id="heading" >* Email: </label>
+    <input type="email" name="email" placeholder="Enter a valid email" id="email" required >
+    <br>
+        
+    <label for="age" id="heading" >* Age: </label>
+    <input type="number" name="age" min=1 max=120 id="number" placeholder="Age" required >
+    <br>
+        
+    <label for="gender" id="heading" >* Gender:</label>  <br>  
+    <input type="radio" value="male" name="gender" checked required >
+        <label for="male">Male</label>        <br>
+    <input type="radio" value="female" name="gender" required >
+        <label for="female">Female</label><br>
+    <input type="radio" value="other" name="gender" required >
+            <label for="other">Other</label>
+
+    <br>
+    <label for="role" id="heading" >Current Role: </label>
+        <select name="role"  required id="dropdown" >
+    <option value="student">Student</option>
+    <option value="intern">Intern at some awesome Company</option>
+    <option value="job">Working at some amazing Company</option>
+    <option value="other">Other</option>
+    <option value="prefernottosay">Prefer not to Say!</option>            
+        </select>
+    
+    <br>&nbsp;<br>
+        <label for="interest" id="heading" >Tell us about your coding interest!</label><br>
+    <input type="checkbox" value="frontend" name="interest" ><label for="frontend">Front-End Development</label><br>
+    <input type="checkbox" value="backend" name="interest"><label for="backend">Backend-End Development</label><br>
+    <input type="checkbox" value="server" name="interest" ><label for="server">Server Side Coding</label><br>
+    <input type="checkbox" value="db" name="interest" ><label for="db">Database Management/Administrator</label><br>
+    <input type="checkbox" value="other" name="interest" ><label for="other">Other</label><br>
+    <br>    
+
+        <label for="suggestions" id="heading" >Any Suggestions?</label><br>
+    <textarea name="suggestions"></textarea>    <br>
+
+            <input type="submit" value="Submit Form" id="btn" >   
+        
+        </form>
+        <br>&nbsp;<br>
+    <div id="developer">
+        Made by <a href="http://iamarav.github.io" target="_blank" >Gaurav Sachdeva (Arav)</a> | 
+        <a href="http://github.com/iamarav" target="_blank" >Github</a> | 
+        <a href="https://codepen.io/gauravsachdeva/" target="_blank" >Codepen</a> |
+        <a href="http://arav.ga" target="_blank" >Blog</a>
+        
+        
+        
+        
+        </div>
+        
+    </div>
+    
+</body>
+</html>

@@ -1,9 +1,10 @@
 # FreeCodeCamp HTML+CSS Projects
 -- Author: Gaurav Sachdeva
+
 Responsive Web Pages made with HTML+CSS (FCC)
 
 ---------------
-The 4 HTML+CSS+JS Responsive Webpage Projects:
+The 5 HTML+CSS+JS Responsive Webpage Projects:
 ## My Portfolio (HTML+CSS)
 [Website/GitHub](http://www.arav.cf/fcc-html/my-portfolio/) | 
 [Codepen](https://codepen.io/gauravsachdeva/pen/PBPJvR)
